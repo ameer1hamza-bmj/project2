@@ -147,8 +147,30 @@ margin-top: 30px;
     width: 350px;
     padding-top: 10px;
 }
+.section3{
+    height: 250px;
+    width: 100%;
+    background-color: #111420;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3 h1{
+    font-size: 64px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 400;
+font-family: "Audiowide";
 
-
+}
+.section3 p{
+    font-size: 20px;
+color: #ffffff;
+font-family: "Montserrat";
+margin-top: 20px;
+}
 
 
 
@@ -264,6 +286,20 @@ margin-top: 30px;
     }
     .hero1 h3{
         font-size: 16px;
+        margin-top: 10px;
     }
-
+    .section3 h1{
+        font-size: 44px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Audiowide";
+    
+    }
+    .section3 p{
+        font-size: 12px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    margin-top: 20px;
+    }
 }
