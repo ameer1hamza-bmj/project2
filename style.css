@@ -258,13 +258,11 @@ margin-top: 20px;
     .hero1{
         height: 600px;
         width: 100%;
-        border: 2px solid red;
         text-align: center;
     }
     .heroimg{
         height: 600px;
         width: 100%;
-        border: 2px solid blue;
     }
     .hero1 h1{
         margin: 0px ;
