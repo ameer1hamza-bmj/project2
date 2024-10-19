@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+    height: 100px;
+    width: 100%;
+    background-color: #111420;
+    display: flex;
+}
+.logo{
+    height: 100px;
+    width: 20%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.navbar{
+    height: 100px;
+    width: 60%;
+
+}
+.searchbtn{
+    height: 100px;
+    width: 20%;
+    display: flex;
+}
+.logo img{
+    width: 120px;
+}
+nav{
+   padding: 1vmin;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+}
+nav ul li{
+    padding: 0px 25px;
+}
+nav ul li a{
+    font-size: 21px;
+text-transform: uppercase;
+color: #f7ead2;
+font-weight: 500;
+font-family: "Montserrat";
+text-decoration: none;
+}
+.search-bar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 25px 6px;
+    margin-top: 15px;
+    margin-left: 20px;
+  
+}
+.search-bar input{
+    width: 0;
+    border: 0;
+    outline: none;
+    background: transparent;
+    transition: width 1s ;
+
+}
+.search-bar:hover{
+    background-color: white;
+}
+.fa-magnifying-glass{
+font-size: 1.2rem;
+background-color: #111420;
+padding: 13px;
+border-radius: 50%;
+color: #f7ead2;
+}
+.search-bar:hover input{
+    width: 150px;
+}
+.section2{
+    height: 550px;
+    background: url(images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    display: flex;
+}
+.hero1{
+    height: 550px;
+    width: 50%;
+
+}
+.heroimg{
+    height: 550px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero1 h1{
+    font-size: 64px;
+color: #DA4C72;
+font-weight: 400;
+font-family: "Audiowide";
+margin: 150px 0px 0px 0px;
+text-align: center;
+}
+.hero1 p{
+    font-size: 18px;
+color: #191c26;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: justify;
+margin-left: 130px;
+margin-top: 10px;
+}
+.hero1  button{
+    border-radius: 30px;
+background-color: #d3557c;
+padding: 10px 40px;
+font-size: 16px;
+text-transform: uppercase;
+color: #f7ead2;
+font-weight: 500;
+font-family: "Montserrat";
+text-align: center;
+border: none;
+outline: none;
+margin: 30px 0px 0px 130px;
+cursor: pointer;
+}
+.hero1 h3{
+    font-size: 24px;
+color: black;
+font-weight: bolder;
+font-family: "Montserrat";
+text-align: center;
+margin-top: 30px;
+}
+.heroimg img{
+    width: 350px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    
+    .section1{
+        height: 100px;
+        width: 100%;
+        background-color: #111420;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo img{
+        width: 80px;
+    }
+    nav ul li{
+        padding: 0px 10px;
+    }
+    nav ul li a{
+        font-size: 10px;
+    text-transform: uppercase;
+    color: #f7ead2;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-decoration: none;
+    }
+    .search-bar:hover input{
+        width: 150px;
+    }
+    .navbar{
+        height: 100px;
+        width: 100%;
+
+        background-color: #111420;
+    
+    }
+    .searchbtn{
+        height: 100px;
+        width: 100%;
+     outline: none;
+        background-color: #111420;
+        display: flex;
+       
+    }
+    
+    .logo{
+        height: 100px;
+        width: 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+    }
+    .search-bar{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        cursor: pointer;
+        padding: 25px 6px;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin: auto;
+      
+    }
+    .search-bar:hover{
+        background-color: white;
+    }
+    .section2{
+        height: 600px;
+        background: url(images/background.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 76px;
+    }
+    .hero1{
+        height: 600px;
+        width: 100%;
+        border: 2px solid red;
+        text-align: center;
+    }
+    .heroimg{
+        height: 600px;
+        width: 100%;
+        border: 2px solid blue;
+    }
+    .hero1 h1{
+        margin: 0px ;
+    }
+    .hero1 p{
+        font-size: 13px;
+        color: #191c26;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .hero1  button{
+        margin: 20px 0px 0px 0px;
+    }
+    .heroimg img{
+        width: 150px;
+    }
+    .hero1 h3{
+        font-size: 16px;
+    }
+
+}
