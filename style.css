@@ -172,10 +172,9 @@ font-family: "Montserrat";
 margin-top: 20px;
 }
 .section4{
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-color: #111420;
-    border: 1px solid white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -183,26 +182,24 @@ margin-top: 20px;
     align-items: center;
 }
 .card1{
-    height: 400px;
-    width: 320px;
-    border: 2px solid white;
-    background-color: #F8EAD1;
+    width: 366px;
+    height: 502px;
+    background-color: #f7ead2;
 }
 .card2{
-    height: 400px;
-    width: 320px;
-    border: 2px solid white;
+    width: 366px;
+    height: 502px;
+    background-color: #AFEA5E;
 }
 .card3{
-    height: 400px;
-    width: 320px;
-    border: 2px solid white;
+    width: 366px;
+    height: 502px;
+    background-color: #F2547D;
 }
-.card1hp{
+.card1hp, .card2hp, .card3hp{
     display: flex;
     width: 100%;
-    height: 80px;
-    border: 2px solid aqua;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
 }
@@ -213,7 +210,6 @@ font-weight: 900;
 font-family: "Montserrat";
 display: inline;
 margin-left: 20px;
-border: 2px solid blue;
 }
 .card1hp h1{
     font-size: 26px;
@@ -223,9 +219,74 @@ font-weight: 900;
 font-family: "Montserrat";
 margin: 120px 0px 0px 0px;
 transform: rotate(90deg);
-border: 2px solid red;
 }
+.card1img{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1img img{
+    width: 340px;
+    transform: scaleX(-1);
+    clip-path: inset(0 0 10% 0);
+    padding-top: 110px;
+}
+.card2hp p{
+    font-size: 16px;
+    color: black;
+    font-weight: 900;
+    font-family: "Montserrat";
+    display: inline;
+    margin-left: 20px;
+}
+.card2hp h1{
+    font-size: 26px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 900;
+    font-family: "Montserrat";
+    margin: 120px 0px 0px 0px;
+    transform: rotate(90deg);
+}
+.card2img{
+    height: 400px;
+    width: 100%;
+}
+.card2img img{
+    width: 300px;   
+padding-top: 48px;
+}
+.card3hp p{
+    font-size: 16px;
+    color: white;
+    font-weight: 900;
+    font-family: "Montserrat";
+    display: inline;
+    margin-left: 20px;
+}
+.card3hp h1{
+    font-size: 26px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-family: "Montserrat";
+    margin: 120px 0px 0px 0px;
+    transform: rotate(90deg);
+}
+.card3img{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card3img img{
+    width: 380px;   
+padding-top: 65px;
 
+}
 
 
 
