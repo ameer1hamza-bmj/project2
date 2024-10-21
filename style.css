@@ -175,7 +175,6 @@ margin-top: 20px;
     height: 600px;
     width: 100%;
     display: flex;
-    border: 2px solid white;
     background-color: #111420;
     flex-direction: row;
     flex-wrap: wrap;
@@ -183,7 +182,6 @@ margin-top: 20px;
 .sec4l{
     height: 600px;
     width: 33.33%;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,7 +190,6 @@ margin-top: 20px;
 .sec4c{
     height: 600px;
     width: 33.33%;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,7 +198,6 @@ margin-top: 20px;
 .sec4r{
     height: 600px;
     width: 33.33%;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,8 +330,31 @@ transform: rotate(90deg);
     width: 340px;
     display: inline;
 padding-top: 68px;
-
-
+}
+.section5{
+    height: 600px;
+    width: 100%;
+    background: url(images/section5.jpg) no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.sec5img{
+height: 600px;
+width: 50%;
+border: 2px solid red;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sec5img img{
+    width: 400px;
+}
+.sec5text{
+    border: 2px solid blue;
+    height: 600px;
+    width: 50%;
 }
 
 
@@ -486,5 +505,20 @@ padding-top: 68px;
   .card3img img{
     width: 330px;
     padding-top: 75px;
+  }
+  .section5{
+    flex-direction: column;
+    display: flex;
+background: #F3547D;
+
+  }
+  .sec5img{
+    width: 100%;
+  }
+  .sec5img img{
+    width: 250px;
+  }
+  .sec5text{
+    width: 100%;
   }
 }
