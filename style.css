@@ -174,117 +174,167 @@ margin-top: 20px;
 .section4{
     height: 600px;
     width: 100%;
-    background-color: #111420;
     display: flex;
+    border: 2px solid white;
+    background-color: #111420;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+}
+.sec4l{
+    height: 600px;
+    width: 33.33%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec4c{
+    height: 600px;
+    width: 33.33%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec4r{
+    height: 600px;
+    width: 33.33%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 .card1{
-    width: 366px;
-    height: 502px;
+    height:450px;
+    width: 350px;
     background-color: #f7ead2;
+    display: flex;
+    flex-direction: column;
 }
 .card2{
-    width: 366px;
-    height: 502px;
-    background-color: #AFEA5E;
+    height:450px;
+    width: 350px;
+    background-color: #c1ea6a;
 }
 .card3{
-    width: 366px;
-    height: 502px;
-    background-color: #F2547D;
+    height:450px;
+    width: 350px;
+    background-color: #d3557c;
 }
-.card1hp, .card2hp, .card3hp{
-    display: flex;
+.card1text{
+    height: 80px;
     width: 100%;
-    height: 100px;
-    justify-content: space-between;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.card1hp p{
-    font-size: 16px;
+.card1text p{
+    font-size: 12px;
 color: #d3557c;
 font-weight: 900;
 font-family: "Montserrat";
-display: inline;
-margin-left: 20px;
+padding-left: 50px;
 }
-.card1hp h1{
+.card1text h1{
     font-size: 26px;
 text-transform: uppercase;
 color: #d3557c;
-font-weight: 900;
+font-weight: 600;
 font-family: "Montserrat";
-margin: 120px 0px 0px 0px;
+text-align: center;
+margin: 120px 0px 0px 50px;
 transform: rotate(90deg);
 }
 .card1img{
-    height: 400px;
-    width: 100%;
+    height: 370px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .card1img img{
-    width: 340px;
+    width: 350px;
+    display: inline;
     transform: scaleX(-1);
     clip-path: inset(0 0 10% 0);
-    padding-top: 110px;
+    padding-top: 58px;
 }
-.card2hp p{
-    font-size: 16px;
-    color: black;
-    font-weight: 900;
-    font-family: "Montserrat";
-    display: inline;
-    margin-left: 20px;
-}
-.card2hp h1{
-    font-size: 26px;
-    text-transform: uppercase;
-    color: black;
-    font-weight: 900;
-    font-family: "Montserrat";
-    margin: 120px 0px 0px 0px;
-    transform: rotate(90deg);
-}
-.card2img{
-    height: 400px;
-    width: 100%;
-}
-.card2img img{
-    width: 300px;   
-padding-top: 48px;
-}
-.card3hp p{
-    font-size: 16px;
-    color: white;
-    font-weight: 900;
-    font-family: "Montserrat";
-    display: inline;
-    margin-left: 20px;
-}
-.card3hp h1{
-    font-size: 26px;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 900;
-    font-family: "Montserrat";
-    margin: 120px 0px 0px 0px;
-    transform: rotate(90deg);
-}
-.card3img{
-    height: 400px;
+.card2text{
+    height: 80px;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+}
+.card2text p{
+    font-size: 12px;
+color: black;
+font-weight: 900;
+font-family: "Montserrat";
+padding-left: 50px;
+}
+.card2text h1{
+    font-size: 26px;
+text-transform: uppercase;
+color: black;
+font-weight: 600;
+font-family: "Montserrat";
+text-align: center;
+margin: 120px 0px 0px 0px;
+transform: rotate(90deg);
+
+}
+.card2img{
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card2img img{
+    width: 300px;
+    display: inline;
+padding-top: 16.3px;
+transform: scaleX(-1);
+margin-left: 70px;
+}
+.card3text{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card3text p{
+    font-size: 12px;
+color: black;
+font-weight: 900;
+font-family: "Montserrat";
+padding-left: 50px;
+}
+.card3text h1{
+    font-size: 26px;
+text-transform: uppercase;
+color: black;
+font-weight: 600;
+font-family: "Montserrat";
+text-align: center;
+margin: 120px 0px 0px 0px;
+margin-right: 50px;
+transform: rotate(90deg);
+}
+.card3img{
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card3img img{
-    width: 380px;   
-padding-top: 65px;
+    width: 340px;
+    display: inline;
+padding-top: 68px;
+
 
 }
 
@@ -293,10 +343,8 @@ padding-top: 65px;
 
 
 
+@media (max-width:1024px) {
 
-
-@media (max-width:600px) {
-    
     .section1{
         height: 100px;
         width: 100%;
@@ -416,9 +464,27 @@ padding-top: 65px;
     margin-top: 20px;
     }
     .section4{
+        flex-direction: column;
         height: auto;
     }
-    .card1, .card2, .card3{
-        margin-top: 40px;
+    .sec4l{
+        width: 100%;
     }
+    .sec4c{
+        width: 100%;
+    }
+  .sec4r{
+    width: 100%;
+  }
+  .card1img img{
+    width: 320px;
+    padding-top: 90px;
+  }
+  .card2img img{
+    margin-left: 20px;
+  }
+  .card3img img{
+    width: 330px;
+    padding-top: 75px;
+  }
 }
