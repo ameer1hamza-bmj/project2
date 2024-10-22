@@ -568,6 +568,106 @@ font-weight: 400;
 font-family: "Montserrat";
 text-align: center;
 }
+.section10{
+    height: 150px;
+    width: 100%;
+    background-color: #F8EAD1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section10 h1{
+    font-size: 50px;
+text-transform: uppercase;
+color: #191c26;
+font-weight: 400;
+font-family: "Audiowide";
+text-align: center;
+}
+.section11{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #F8EAD1;
+    border: 2px solid black;
+}
+.sec11l{
+    height: 500px;
+    width: 33.33%;
+    border: 2px solid purple;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.sec11c{
+    height: 500px;
+    width: 33.33%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec11r{
+    height: 500px;
+    width: 33.33%;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.sec11card1{
+    height:450px;
+    width: 350px;
+    background-color: #F2547D;
+    display: flex;
+}
+.sec11card2{
+    height:450px;
+    width: 350px;
+    background-color: #AFEA5E;
+}
+.sec11card3{
+    height:450px;
+    width: 350px;
+    background-color: #F2547D;
+}
+.sec11card1img{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.sec11card1img img{
+margin-left: -140px;
+    width: 350px;
+    padding-top: 35px;
+    clip-path: inset(0 0 0 40%);
+}
+.sec11card1text{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec11card1text h1{
+    font-size: 10vmin;
+text-transform: uppercase;
+color: #f7ead2;
+font-weight: 600;
+transform: rotate(90deg);
+font-family: "Montserrat";
+text-align: center;
+margin-top: -150px;
+}
+
+
+
+
+
+
 
 
 
@@ -908,5 +1008,41 @@ color: #ffffff;
 font-weight: 400;
 font-family: "Montserrat";
 text-align: center;
+}
+.section11{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   height: auto;
+}
+.sec11l{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.sec11c{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.sec11r{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.sec11card1{
+    height:450px;
+    width: 350px;
+    background-color: #F2547D;
+}
+.sec11card2{
+    height:450px;
+    width: 350px;
+    background-color: #AFEA5E;
+}
+.sec11card3{
+    height:450px;
+    width: 350px;
+    background-color: #F2547D;
 }
 }
