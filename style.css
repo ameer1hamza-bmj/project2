@@ -590,12 +590,10 @@ text-align: center;
     display: flex;
     flex-direction: row;
     background-color: #F8EAD1;
-    border: 2px solid black;
 }
 .sec11l{
     height: 500px;
     width: 33.33%;
-    border: 2px solid purple;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -603,7 +601,6 @@ text-align: center;
 .sec11c{
     height: 500px;
     width: 33.33%;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -611,7 +608,6 @@ text-align: center;
 .sec11r{
     height: 500px;
     width: 33.33%;
-    border: 2px solid blue;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -626,6 +622,8 @@ text-align: center;
     height:450px;
     width: 350px;
     background-color: #AFEA5E;
+    display: flex;
+    flex-direction: column;
 }
 .sec11card3{
     height:450px;
@@ -662,8 +660,61 @@ font-family: "Montserrat";
 text-align: center;
 margin-top: -150px;
 }
-
-
+.sec11card2text{
+    height: 20%;
+    width: 100%;
+    display: flex;
+   
+    align-items: center;
+}
+.sec11card2text h3{
+    font-size: 36px;
+text-transform: uppercase;
+color: #191c26;
+font-weight: 600;
+font-family: "Montserrat";
+padding-left: 50px;
+}
+.sec11card2img{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec11card2img img{
+    width: 380px;
+    clip-path: inset(0 15% 15% 0);
+    margin: 50px 0px 0px 85px;
+}
+.sec11card3text{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.sec11card3img{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec11card3text h1{
+    font-size: 10vmin;
+    text-transform: uppercase;
+    color: #191c26;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.sec11card3img img{
+    width: 450px;
+  margin: 50px 0px 0px 35px;
+    clip-path: inset(0 15% 12% 7%);
+}
 
 
 
@@ -1044,5 +1095,22 @@ text-align: center;
     height:450px;
     width: 350px;
     background-color: #F2547D;
+}
+.sec11card2img{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.sec11card2img img{
+    width: 320px;
+    clip-path: inset(0 0 15% 0);
+    margin: 100px 0px 0px 0px;
+}
+.sec11card3img img{
+    width: 320px;
+  margin: 70px 0px 0px 0px;
+    clip-path: inset(0 0 0 0);
 }
 }
