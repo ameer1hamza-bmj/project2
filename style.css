@@ -1190,6 +1190,7 @@ text-align: center;
     align-items: center;
     justify-content: flex-start;
 }
+
 .sec11card2img img{
     width: 320px;
     clip-path: inset(0 0 15% 0);
@@ -1206,7 +1207,7 @@ text-align: center;
 .section12 h1{
     width: 520px;
     margin: 50px;
-    
+    font-size: 20px;
 }
 .section13 h1{
     font-size: 45px;
